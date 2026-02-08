@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+   background: url("folower\ img/background") center/cover no-repeat;
+}
+
+/* header */
+header {
+  background: orangered;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* container */
+.container {
+  width: 90%;
+  margin: auto;
+}
+.container img{
+  background-size: cover;
+}
+
+/* hero */
+.hero {
+  height: 80vh;
+  background: url("folower\ img/background") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: orangered;
+  text-align: center;
+}
+
+.hero p {
+  max-width: 600px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background: #e74c3c;
+ text-align: center
+}
+
+.hero button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* sections */
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.title h2 {
+  margin-bottom: 10px;
+}
+
+/* slider */
+.folower-slider {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.folower-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.folower-card {
+  min-width: 250px;
+  background: white;
+  margin: 0 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.folower-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* arrows */
+.folower-arrows {
+  margin-top: 20px;
+}
+
+.folower-arrows button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* order form */
+#folower-order-section form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#folower-order-section input,
+#folower-order-section select {
+  padding: 10px;
+}
+
+#folower-order-section button {
+  padding: 10px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#folower-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#folower-list li {
+  background: white;
+  padding: 10px;
+  margin: 5px auto;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+/* footer */
+footer {
+  background: orangered;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
